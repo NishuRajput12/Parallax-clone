@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.Navbar {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  position: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-section {
+  /* background: url('https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg'); */
+background: url('https://mlrit.ac.in/wp-content/uploads/2022/04/career-options-for-computer-science-graduates.jpeg');
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-attachment: fixed;
+}
+
+.hero {
+  margin: auto;
+  position: relative;
+  left: 500x;
+  top: 40px;
+  width: 250px;
+  height: 32px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.hero:hover {
+  color: rgb(202, 199, 199);
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.hero-2 h2 {
+  margin: auto;
+  position: relative;
+  left: 500x;
+  top: 200px;
+  width: 250px;
+  height: 37px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana;
+}
+
+.hero-2 {
+  width: 100%;
+  height: 600px;
+  /* background: url('https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg'); */
+background: url('https://mlrit.ac.in/wp-content/uploads/2022/04/career-options-for-computer-science-graduates.jpeg');
+background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.hero-2 h2:hover {
+  color: rgb(202, 199, 199);
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.para-1 {
+  padding: 50px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 850px) {
+  .para-1 {
+    font-size: 15px;
+    text-wrap: wrap;
+
+  }
+}
+
+.para-2 {
+  text-align: start;
+  padding: 20px;
+  font-size: 17px;
+  font-family: Verdana;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+@media only screen and (max-width: 850px) {
+  .para-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  .top_div {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .para-2 li {
+    font-size: 14px;
+  }
+
+  .para-2 pre {
+    font-size: 12px;
+    padding: 0.4rem;
+    text-wrap: wrap;
+  }
+
+  .para-2 p {
+    font-size: 12px;
+  }
+}
+
+.card {
+  padding: 1rem;
+  width: 20%;
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 0 2px 2px black;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  background-color: #abafad;
+  transition: ease-in-out;
+
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    padding: 1rem;
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 0 2px 2px black;
+    margin-bottom: 2rem;
+  }
+}
+
+.card img {
+  padding: 1rem;
+  width: 80%;
+  height: 150px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+  .card img {
+    padding: 1rem;
+    width: 50%;
+    height: 100px;
+    border-radius: 30px;
+  }
+}
+
+.container {
+  padding: 1 rem;
+  font-size: 0.8rem;
+
+}
+
+@media only screen and (max-width:850) {
+  .container {
+    max-width: 100%;
+    font-size: 0.6rem;
+  }
+
+}
+
+.footers {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  height: 100px;
+}
+
+.footer p {
+  color: white;
+  width: 100%;
+  padding: 1rem;
+
+
+}
+
+.hero-btn a {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+  padding: 1rem;
+}
+
+.hero-btn a i:hover {
+  transform: scale(1.1);
+  color: rgb(80, 78, 78);
+
+}
